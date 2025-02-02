@@ -30,6 +30,7 @@ sudo apt-get install libopencv-dev  # Para sistemas baseados em Debian/Ubuntu
 
 ```
 ├── CMakeLists.txt         # Arquivo de configuração do CMake
+├── include/                   # Código fonte (.h)
 ├── src/                   # Código fonte (.cpp)
 │   ├── auxiliares10.cpp    # Funções auxiliares do SfM
 │   ├── distancia4.cpp      # Função para KNN e encontrar correspondências
